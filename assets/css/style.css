@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.instructions {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.winNum {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.winTotal {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.jewelContainer {
+  
+}
+
+img {
+    width: 150px;
+}
+
+.totalScore {
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+}
+
+.scoreBox {
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+

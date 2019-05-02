@@ -1,3 +1,7 @@
+body {
+    background-image: url("assets/images/backgroundForest.JPG");
+}
+
 * {
     box-sizing: border-box;
 }

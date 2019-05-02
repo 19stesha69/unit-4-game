@@ -6,30 +6,48 @@
         <title>Crystal Challange</title>
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+        <link href="https://fonts.googleapis.com/css?family=Uncial+Antiqua" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
 
     <body>
 
-        <div class="title"></div>
-        <div class="instructions"></div>
-        <div class="winNum">
-            <span id="ranNum"></span>
-        </div>
-        <div class="winTotal">
-            <p>WINS: <span id="wins"></span></p>
-            <p>LOSSES: </p><span id="losses"></span></p>
-        </div>
-        <div class="jewelContainer">
-            <img id="jewel1" src="assets/images/ruby.jpg">
-            <img id="jewel2" src="assets/images/emerald.png">
-            <img id="jewel3" src="assets/images/diamond.jpg">
-            <img id="jewel4" src="assets/images/sapphire.jpg">
-        </div>
-        <div class="totalScore"></div>
-        <div class="scoreBox">
-            <span id="scoreNum"></span>
-        </div>
+            <div class="title">
+                <h1>Collect the Faerie Crystals</h1>
+            </div>
+            <div class="instructions">
+                <p>You will be given a random number at the start of the game.</p>
+                <br>
+                <p>There are four crystals below. By clicking on a crystal, you will add a 
+                    specific amount of points to your total score.</p>
+                <br>
+                <p>You win the game by matching your total score to the random number. If it goes above, you lose.</p>
+                <br>
+                <p>The value of each crystal is hidden until you click on it.</p>
+                <br>
+                <p>Each time the game starts, the value of each crystal will change.</p>
+            </div>
+            <div class="scoreContainer">
+                <div class="winNum">
+                    <span id="ranNum"></span>
+                </div>
+                <div class="winTotal">
+                    <p>WINS: <span id="wins"></span></p>
+                    <p>LOSSES: <span id="losses"></span></p>
+                </div>
+            </div>  
+            <div class="jewelContainer">
+                <img id="jewel1" src="assets/images/ruby.jpg">
+                <img id="jewel2" src="assets/images/emerald.png">
+                <img id="jewel3" src="assets/images/diamond.jpg">
+                <img id="jewel4" src="assets/images/sapphire.jpg">
+            </div>
+            <div class="totalScore">
+                <p>Your total score is...</p>
+            </div>
+            <div class="scoreBox">
+                <span id="scoreNum"></span>
+            </div>
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

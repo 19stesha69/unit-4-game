@@ -22,6 +22,8 @@ $(document).ready(function() {
 
     getNumber();
 
+    //regenerate values for the jewels once the game resets
+
     var getValue = function() {
         jewel1 = Math.floor(Math.random() * (12 - 1 + 1) + 1);
         jewel2 = Math.floor(Math.random() * (12 - 1 + 1) + 1);

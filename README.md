@@ -5,7 +5,10 @@ The rules are simple: Click the crystals and add the points up without going ove
 The Crystal Collector game is single page app that utilizes jQuery for its functionality. The code that operates the game is written in a modular fashion, making the path of the code easy to follow.
 
 # Instructions
-All game play happens on a single page. At the start, the player is given a random number at the start of the game.
+All game play happens on a single page. 
+![](/assets/images/screenshot1.png)
+
+At the start, the player is given a random number at the start of the game.
 
 There are four crystals. Each crystal is assigned a random value between the numbers of 1 and 12. By clicking on a crystal, you will add that number to the total score.
 

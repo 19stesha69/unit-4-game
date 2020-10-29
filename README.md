@@ -6,9 +6,11 @@ The Crystal Collector game is single page app that utilizes jQuery for its funct
 
 # Instructions
 All game play happens on a single page. 
+
 ![](/assets/images/screenshot1.png)
 
 At the start, the player is given a random number at the start of the game.
+
 ![](/assets/images/screenshot2.jpg)
 
 There are four crystals. Each crystal is assigned a random value between the numbers of 1 and 12. By clicking on a crystal, you will add that number to the total score.
@@ -18,6 +20,7 @@ There are four crystals. Each crystal is assigned a random value between the num
 To win the game, the player's total score has to equal the randomly chosen number showing on the screen. It the player's total score goes above that number, the player loses. 
 
 As soon as a game is either won or lost, a new target score is generated, and one is added to the number of wins or losses.
+
 ![](/assets/images/screenshot4.jpg)
 
 

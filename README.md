@@ -22,5 +22,5 @@ As soon as a game is either won or lost, a new target score is generated, and on
 
 
 # Link
-https://steeshmck.github.io/unit-4-game/
+https://steeshmck.github.io/Fairy-Crystal-Game/
  
